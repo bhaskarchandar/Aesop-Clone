@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Suisse Medium", sans-serif;
+}
+
+.app {
+  background-color: #fffef2;
+}
+
+.message {
+  background-color: #333;
+  width: 2em !important;
+  height: 2em !important;
+  font-size: 1.3rem !important;
+  border-radius: 50%;
+  padding: 6px;
+  position: fixed;
+  bottom: 60px;
+  right: 40px;
+}
+
+.message path {
+  border-radius: 0;
+  color: #fffef2;
+}
+.app h1{
+  font-family: "Zapf Humanist", serif;
+  margin: 0 0 30px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.33;
+  margin-left: 85px;
+  margin-top: 190px;
+}
+@media only screen and (max-width: 639px) {
+   .app h1{
+    margin-top: 100px;
+   }
+}
+
+
+.cNNJIt{
+  border-radius:0% !important;
+  height:100px !important;
+}
+
+.cNNJIt:disabled {
+  display:none !important;
+}
+
+.cNNJIt:hover{
+  background-color: #333 !important;
+}
+
+.jRFJkP{
+  border-radius:0% !important;
+  height:100px !important;
+}
+
+.jRFJkP:hover{
+  background-color: #333 !important;
+}
